@@ -46,7 +46,16 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
+            // 'host' => '127.0.0.1',
+            // 'username' => 'root',
+            // 'password' => 'root',
+            // 'database' => 'smart_pond',
+
             'host' => '127.0.0.1',
+            'username' => 'studyitb_layanan',
+            'password' => 'manlaykelompok2',
+            'database' => 'studyitb_aan',
+
             'port' =>  '3306',
             'database' => 'smart_pond',
             'username' => 'root',
