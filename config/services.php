@@ -32,9 +32,9 @@ return [
 
     
     'google' => [
-        'client_id' => '1050852361602-79rhdp22br4t7d62mn27pnno95g072ap.apps.googleusercontent.com',
-        'client_secret' => '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',
-        'redirect' => 'http://localhost/pabo/pabo/public/auth/google/callback',
+        'client_id' =>  env('CLIENT_ID','1050852361602-79rhdp22br4t7d62mn27pnno95g072ap.apps.googleusercontent.com'),
+        'client_secret' => env('CLIENT_SECRET','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'),
+        'redirect' => env('REDIRECT_URI','http://localhost/pabo/pabo/public/auth/google/callback'),
     ],
 
 ];
