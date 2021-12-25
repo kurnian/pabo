@@ -40,7 +40,7 @@
 
 </head>
 
-<body id="page-top" style="margin-top:100px">
+<body id="page-top">
 
 
   <!-- Begin Page Content -->
