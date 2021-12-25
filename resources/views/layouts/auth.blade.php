@@ -23,21 +23,20 @@
 
   <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
 
+  <link href="{{ asset('css/coming-soon.min.css') }}" rel="stylesheet">
+
+
   <script src="{{ asset('jquery/jquery.min.js') }}"></script>
 
   <!-- Core plugin JavaScript-->
   <script src="{{ asset('jquery-easing/jquery.easing.min.js') }}"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="{{ asset('chart.js/Chart.min.js') }}"></script>
 
 
   <!-- Page level custom scripts -->
-  <script src="{{ asset('js/demo/chart-area-demo.js') }}" defer></script>
-  <script src="{{ asset('js/demo/chart-pie-demo.js') }}" defer></script>
 
 </head>
 
@@ -49,7 +48,9 @@
   <!-- End of Main Content -->
 
   <!-- Footer -->
+  <script src="{{ asset('vide/jquery.vide.min.js') }}" defer></script>
 
+  <script src="{{ asset('js/coming-soon.min.js') }}" defer></script>
 
 </body>
 
