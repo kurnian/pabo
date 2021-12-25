@@ -21,3 +21,10 @@ Route::get('auth/google', 'Auth\GoogleController@redirectToGoogle');
 Route::get('auth/google/callback', 'Auth\GoogleController@handleGoogleCallback');
 
 Route::get('/map', 'MapController@index')->name('map');
+
+Route::get('/pond/list', 'PondController@list')->name('pond.list');
+Route::get('/pond/add', 'PondController@viewadd')->name('pond.add');
+Route::post('/pond/add', 'PondController@add');
+
+Route::get('/schedule/list', 'ScheduleController@index')->name('schedule.list');
+Route::get('/schedule/add', 'ScheduleController@index')->name('schedule.add');

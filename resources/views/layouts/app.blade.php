@@ -67,9 +67,9 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Pond List</h6>
-            <a class="collapse-item" href="#">Pond 1</a>
-            <a class="collapse-item" href="#">Pond 2</a>
+            <h6 class="collapse-header">Kolam</h6>
+            <a class="collapse-item" href="{{ route('pond.list') }}">Daftar Kolam</a>
+            <a class="collapse-item" href="{{ route('pond.add') }}">Add kolam</a>
           </div>
         </div>
       </li>
@@ -82,8 +82,8 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Schedule:</h6>
-            <a class="collapse-item" href="#">Time 1</a>
-            <a class="collapse-item" href="#">Time 2</a>
+            <a class="collapse-item" href="{{ route('schedule.list') }}">Daftar schedule</a>
+            <a class="collapse-item" href="{{ route('schedule.add') }}">Add schedule</a>
           </div>
         </div>
       </li>
@@ -163,7 +163,7 @@
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"></span>
-                <img class="img-profile rounded-circle" src="img/itb.png">
+                <img class="img-profile rounded-circle" src="{{ asset('img/itb.png')}}">
                 <!--https://images.unsplash.com/source-404?fit=crop&fm=jpg&h=800&q=60&w=1200-->
               </a>
               <!-- Dropdown - User Information -->
